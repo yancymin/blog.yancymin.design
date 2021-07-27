@@ -50,7 +50,8 @@ h1 {
 
 li h1 {
     cursor: pointer;
-    margin-top: 32px;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 li:nth-of-type(1) h1{
@@ -58,7 +59,7 @@ li:nth-of-type(1) h1{
 }
 
 article h1 {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 article h2 {
@@ -80,7 +81,7 @@ article li {
 }
 
 article p {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 footer {
