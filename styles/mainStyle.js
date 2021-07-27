@@ -4,7 +4,7 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyles = createGlobalStyle`
   ${reset}
   :root {
-  --cr-title: #333;
+  --cr-title: rgb(51, 51, 51);
   --cr-p: rgba(51, 51, 51, 0.8);
   --cr-des: rgba(51, 51, 51, 0.4);
   --cr-bg: #f7f7f7;

@@ -14,7 +14,7 @@ export default function Blog(props) {
                   <a>{post.title}</a>
                 </h1>
               </Link>
-              <p>{post.des.substr(0, 100)}</p>
+              <p>{post.des.substr(0, 110)}...</p>
             </li>
           );
         })}
