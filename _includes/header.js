@@ -1,3 +1,7 @@
-export default function Header(){
-    return <header><p>Blog | Powered by Next.js</p></header>
+export default function Header() {
+  return (
+    <header>
+      <img src='logo.jpeg' alt="logo" id=""logo/>
+    </header>
+  );
 }
