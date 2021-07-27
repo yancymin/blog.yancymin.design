@@ -37,8 +37,9 @@ main {
 
 p {
   color: var(--cr-p);
-  font-size: 16px;
+  font-size: 15px;
   line-height: 26px;
+  font-weight: 400;
 }
 
 h1 {
@@ -49,7 +50,7 @@ h1 {
 
 li h1 {
     cursor: pointer;
-    margin-top: 40px;
+    margin-top: 32px;
 }
 
 li:nth-of-type(1) h1{
