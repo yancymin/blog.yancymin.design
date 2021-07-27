@@ -12,6 +12,7 @@ export async function getAllPosts() {
     posts.push({
       slug: encodeURI(post.replace(".md", "")),
       title: meta.data.title,
+      des: meta.content
     });
   }
   return posts;

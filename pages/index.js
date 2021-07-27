@@ -5,14 +5,16 @@ import { getConfig, getAllPosts } from "@api";
 export default function Blog(props) {
   return (
     <DefaultLayout title={props.title} description={props.description}>
-      <p>List of posts:</p>
       <ul>
         {props.posts.map(function (post, idx) {
           return (
             <li key={idx}>
               <Link href={"/posts/" + post.slug}>
-                <a>{post.title}</a>
+                <h1>
+                  <a>{post.title}</a>
+                </h1>
               </Link>
+              <p>{post.des.substr(0, 100)}</p>
             </li>
           );
         })}
