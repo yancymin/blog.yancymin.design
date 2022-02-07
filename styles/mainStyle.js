@@ -48,6 +48,13 @@ h1 {
   font-weight: 500;
 }
 
+li  span {
+    font-size: 12px;
+    margin-top: 8px;
+    opacity: 0.4;
+    display: flex;
+  }
+
 li h1 {
     cursor: pointer;
     margin-top: 40px;
@@ -61,6 +68,12 @@ li:nth-of-type(1) h1{
 article h1 {
     margin-bottom: 10px;
 }
+
+article span {
+    font-size: 12px;
+    margin-top: 8px;
+    opacity: 0.4;
+  }
 
 article h2 {
     margin: 20px 0 8px 0;
@@ -82,6 +95,11 @@ article li {
 
 article p {
     margin-bottom: 10px;
+}
+
+article img {
+  width: 100%;
+  margin: 10px 0;
 }
 
 footer {

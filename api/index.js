@@ -12,9 +12,12 @@ export async function getAllPosts() {
     posts.push({
       slug: encodeURI(post.replace(".md", "")),
       title: meta.data.title,
-      des: meta.content
+      des: meta.content,
+      date: meta.data.date,
     });
   }
+  console.log(posts)
+
   return posts;
 }
 
@@ -23,8 +26,9 @@ export async function getPostBySlug(slug) {
   const meta = matter(fileContent.default);
   const content = marked(meta.content);
   return {
-    title: meta.data.title,
+    title: String(meta.data.title),
     content: content,
+    date: meta.data.date,
   };
 }
 
